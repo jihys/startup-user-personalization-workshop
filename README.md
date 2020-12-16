@@ -98,7 +98,7 @@ SageMaker콘솔에서 Notebook에서 본인이 방금 생성한 노트북을 찾
 
 
 
-[![StackWizard8](images/static/imgs/img8.png)](images/imgs/img8.png)
+[![StackWizard8](images/imgs/img8.png)](images/imgs/img8.png)
 
 선택한 SageMaker notebook 에서  `Open JupyterLab` 을 클릭합니다. 
 
