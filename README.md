@@ -18,19 +18,20 @@ Amazon Personalize는 추천 / 개인화 모델을 빠르고 효과적으로 구
 
 ##### 솔루션 생성하기
 
-- Amazon Personalize에 제공하는 다양한 알고리즘을 통해 솔루션(사용자 추천 모델)을 생성해 봅니다.
-
+- Amazon Personalize에 제공하는 알고리즘 중 최신 알고르즘인 User-Persoanlization 솔루션(사용자 추천 모델)을 생성해 봅니다.
+- ㄷ
 
 ##### 캠페인 생성 
 
 - 생성된 모델을 활용하여 개인화 결과를 얻어 봅니다.
-- Real-time서빙과 Batch recommendation 차이에 대해 알아보고 적합한 적용 방식에 대해 알아봅니다. 
-- 사용자 기반 추천/아이템 기반 추천/Cold-start 아이템 추천의 결과를 확인해 봅니다.
+- Event Tracker를 통해 새로운 사용 인터렉션 정보가 실시간 추천에 어떤 영향을 미치는 지 확인해 봅니다. 
+- Exploration Weight 을 조정하여 콜드아이템 추천 비율을 확인해 봅니다.
 
 ##### 성능 분석 
 
 - 추천 모델 성능 지표에 대한 메트릭에 대해 알아 봅니다.
-- 사용자 기반 추천/아이템 기반 추천/Cold-start 아이템 추천의 결과를 확인해 봅니다.
+- 테스트 셋을 가지고 성능을 확인해 봅니다.
+- Cold-start 아이템 추천의 결과를 확인해 봅니다.
 
 
 
@@ -87,21 +88,21 @@ CloudFormation Template 을 활용하여 작업 환경을 구성합니다.
 
 
 
-[![StackWizard5](images/imgs/img6.png)](images/static/imgs/img6.png)
+[![StackWizard6](images/imgs/img6.png)](images/static/imgs/img6.png)
 
 이제 AWS Management 콘솔 페이지에서  `Services` 클릭 후  `SageMaker`서비스를 조회한 하여 클릭한 후 SageMaker메뉴로 이동 합니다.
 
-[![StackWizard5](images/imgs/img7.png](images/imgs/img7.png)
+[![StackWizard7](images/imgs/img7.png)](images/imgs/img7.png)
 
 SageMaker콘솔에서 Notebook에서 본인이 방금 생성한 노트북을 찾아 클릭합니다.
 
 
 
-[![StackWizard5](images/static/imgs/img8.png)](images/images/imgs/img8.png)
+[![StackWizard8](images/static/imgs/img8.png)](images/images/imgs/img8.png)
 
 선택한 SageMaker notebook 에서  `Open JupyterLab` 을 클릭합니다. 
 
-[![StackWizard5](images/imgs/img9.png)](images/imgs/img9.png)
+[![StackWizard9](images/imgs/img9.png)](images/imgs/img9.png)
 
 
 
